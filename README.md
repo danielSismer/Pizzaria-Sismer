@@ -21,9 +21,3 @@ Bem-vindo ao projeto da **Pizzaria Online**, uma página web feita com muito car
 - CSS3 — pra deixar tudo estiloso e animado (com Flexbox, Grid e media queries!)  
 
 ---
-
-## 🚀 Como rodar esse projeto
-
-1. Clone o repositório no seu computador:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
