@@ -1,0 +1,238 @@
+body{
+
+    font-family:lato, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.cabecario{
+
+    font-size:22px;
+    padding-top:10px;
+    display:flex;
+    justify-content:space-around
+
+}
+
+#logo {
+
+    width:100px ;
+
+}
+
+#pedidoHeader{
+
+    display: flex;
+    padding: 10px;
+    background-color: #D6655A;
+    border-radius: 15px;
+    color: black;
+    font-size: 20px; 
+
+}
+
+#pedidoHeader:hover{
+
+    transform:scale(1.05);
+     transition: 0.5s;
+
+}
+
+#pedido{
+
+    border-color:#D6655A;
+    background-color: #fff20000;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px;
+    color:white;
+
+}
+
+#pedido:hover{
+
+    background-color: #D6655A;
+    color: black;
+    transition:  0.5s;
+    transform:scale(1.03);
+
+}
+
+#cardapio{
+
+    border-color: #D6655A;
+    background-color: #fff20000;
+    font-size: 22px;
+    border-radius:15px;
+    padding: 10px;
+    color:white;
+
+}
+
+#cardapio:hover{
+
+    background-color: #D6655A;
+    color: black;
+    transition: 0.5s;
+    transform:scale(1.03);
+
+}
+
+#banner-container {
+
+    position: relative;
+    width: 100%;
+    height: 600px;
+    filter:brightness(20%);
+
+}
+
+#slogan1 {
+
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+    padding-left: 70px;
+
+}
+
+#slogan2 {
+
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+    padding-left: 70px;
+    padding-top:100px;
+
+}
+
+#slogan3 {
+
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: left;
+    width: 100%;
+    padding-left: 70px;
+    padding-top:240px;
+
+}
+
+#pizzasDestaque{
+
+    font-size: 50px;
+    margin-left: 20%;
+    margin-right: 40%;
+
+}
+
+
+
+#setorPizza01{
+
+    padding-top: 20px;
+    display:flex;
+    justify-content: start;
+    padding-left: 70px;
+    gap:150px;
+
+}
+
+#pizza img {
+
+    height: 300px;
+    width: 500px;
+
+}
+
+
+
+#tituloPizza{
+
+    display: flex;
+    font-size: 30px;
+    justify-content: center;  
+    align-items: center;
+
+}
+
+#setorPizza02{
+
+    padding-top: 100px;
+    display:flex;
+    justify-content: start;
+    padding-left: 70px;
+    gap:150px;
+
+}
+
+#descricaoPizza{
+
+    max-width: 485px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#pizzaSalgada {
+
+    margin-left: 200px;
+    font-size: 40px;
+
+
+}
+
+#pizzasDoce{
+
+    margin-left: 200px;
+    font-size: 40px;
+    padding-top: 70px;
+    font-weight: bold;
+
+}
+
+
+#setorPizza03{
+
+    padding-top: 20px;
+    display:flex;
+    justify-content: start;
+    padding-left: 70px;
+    gap:150px;
+
+}
+
+
+#pizza p {
+
+    padding: 8px;
+    
+}
+
+#pizza {
+
+    background-color: #F5E1B8;
+    border-radius: 15px;
+    padding: 0;   
+    margin: 0;
+    border: 0;
+
+}
+
+#pizza:hover{
+
+    transition: 0.5s;
+    transform: scale(1.05);
+}
