@@ -82,37 +82,39 @@ body{
 
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 900px;
     filter:brightness(20%);
 
 }
 
 #slogan1 {
 
+    font-size: 60px;
     color: white;
     position: absolute;
-    top: 38%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 40px;
     text-align: left;
     width: 100%;
-    padding-left: 70px;
+    padding-left: 80px;
 
 }
 
 #slogan2 {
 
+    font-size: 60px;
     color: white;
     position: absolute;
-    top: 38%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 40px;
     text-align: left;
     width: 100%;
-    padding-left: 70px;
-    padding-top:100px;
+    padding-left: 80px;
+    padding-top:110px;
 
 }
 
@@ -120,21 +122,13 @@ body{
 
     color: white;
     position: absolute;
-    top: 38%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
     text-align: left;
     width: 100%;
     padding-left: 70px;
     padding-top:240px;
-
-}
-
-#pizzasDestaque{
-
-    font-size: 50px;
-    margin-left: 20%;
-    margin-right: 40%;
 
 }
 
@@ -156,8 +150,6 @@ body{
     width: 500px;
 
 }
-
-
 
 #tituloPizza{
 
@@ -223,7 +215,7 @@ body{
 
 #pizza {
 
-    background-color: #F5E1B8;
+    background-color: #ffaa00;
     border-radius: 15px;
     padding: 0;   
     margin: 0;
@@ -236,3 +228,122 @@ body{
     transition: 0.5s;
     transform: scale(1.05);
 }
+
+
+#pizzasDestaque{
+
+    font-size: 50px;
+    background-color: #D6655A;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 37%;
+    margin-left: 37%;
+
+}
+
+
+#feedback{
+
+    display: flex;
+    margin-top: 120px;
+    font-size: 50px;
+    justify-content: center;
+}
+
+#textoFeedback{
+
+    display:flex;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.container-avaliacao{
+
+    display:flex;
+    gap: 100px;
+    background-color:#f5e1b880;
+    border-radius:15px;
+    flex-direction: flex-start;
+
+}
+
+#avaliacoes{
+
+    background-color:#f5e1b8a4;
+    padding-top: 30px;
+    display:flex;
+    gap:150px;
+    justify-content: space-around;
+
+}
+
+.comentario{
+
+    display:flex;
+    font-size: 20px;
+    padding-top: 40px;
+    justify-content: start;
+
+}
+
+.estrela{
+
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+#novidades{
+
+    padding-top: 140px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#inscreva{
+
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+ #a{
+
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    font-size:22px;
+    background-color:#F5E1B8;
+    padding: 16px;
+    border:2px;
+    border-color:black;
+    border-radius: 15px;
+
+}
+
+#a:hover{
+
+transform:scale(1.05);
+transition:0.5s;
+
+}
+
+footer{
+
+    background-color:#D6655A;
+
+}
+
+#logoName{
+
+    font-family: cursive;
+
+}
+
